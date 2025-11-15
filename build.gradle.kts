@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "io.printscript"
-version = "0.1.1"
+version = "0.1.2"
 
 java {
     toolchain {
@@ -18,7 +18,8 @@ repositories {
 }
 
 dependencies {
-    // comun a servicioss
+    implementation("jakarta.validation:jakarta.validation-api:3.0.2")
+    implementation("org.hibernate.validator:hibernate-validator:8.0.1.Final")
 }
 
 publishing {

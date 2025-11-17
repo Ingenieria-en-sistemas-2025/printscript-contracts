@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "io.printscript"
-version = "0.1.2"
+version = "0.1.4"
 
 java {
     toolchain {
